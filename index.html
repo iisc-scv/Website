@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Final Year Project #18006</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Indian Institute of Science</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +43,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#methodology">Methodology</a>
+              <a class="nav-link js-scroll-trigger" href="#Projects">Methodology</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#progress">Timeline</a>
@@ -52,7 +52,7 @@
               <a class="nav-link js-scroll-trigger" href="#results">Results</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#documentations">Documentations</a>
+              <a class="nav-link js-scroll-trigger" href="#documentations">Gallary</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -65,10 +65,10 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">FRing: A Geography-based P2P Overlay Network for Fast and Robust Blockchain Systems</h1>
+          <h1 id="homeHeading">CAVS: Cryptographic Algorithm Validation System (CAVS).</h1>
           <hr>
           <p>
-            Project FRing includes a noval peer-to-peer overlay network protocol that improves communication efficiency and security among peers, and an implementation of the protocol in C++.
+            Project CAVS is a automated designed system which validate Cryptographic Algorithm i.e.DSA, ECSA, RSA etc. Implementation is done in Java, Wicket, Html, Css.
           </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
@@ -82,27 +82,27 @@
             <h2 class="section-heading text-white">Introduction</h2>
             <hr class="light">
             <p class="text-faded">
-              Blockchain is essentially a public decentralized ledger that securely records transactions between parties anonymously. The key component is to reach agreement among a group of nodes, i.e., consensus. However, based on current Peer-to-Peer network, the broadcast operation is inefficient. Increasing transaction rate leads to traffic congestion. <br><br>
+              Certifying Crypto Product under FIPS 140-2 is carried out by Cryptographic Algorithm Validation Program (CAVP) and Cryptographic Module Validation Program (CMVP). CAVP ensures algorithm implemented by Vendor meets the requirement as recommended by NIST. <br><br>
 
-              Intel SGX is a technology which protects code and execution integrity from hardware perspective. It provides chances to modify the network protocol and store some routing information, in order to reduce as many messages as possible and meanwhile retain the properties required by the blockchain application on top of the network. <br><br>
+              The most critical component of CAVP is CAVS tool. CAVS comprises of validation test suites that verifies the correctness of the vendor’s implementation using test vectors. CAVS designed and developed at IISc, follows the approach adopted by NIST. IISc’s implementation of CAVS is GUI based tool which is controlled by CST admin and used by Tester. <br><br>
 
-              This project targets this weakness of the P2P network under blockchain systems, designing and implementing a new protocol in the Peer-to-Peer network which achieves effciency and do not sacrifice any security or any other required properties.
+              CAVS Tool features:Create Testers, Create Vendor, Capture IUT details, Validation of algorithm, Generation of validation report
             </p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="https://github.com/James-QiuHaoran/hgfrr">Learn More about FRing</a>
+            <a class="btn btn-default btn-xl js-scroll-trigger" href="https://github.com/James-QiuHaoran/hgfrr">Learn More about CAVS</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="methodology">
+    <section id="porject">
       <div class="container text-center">
-        <h2 class="section-heading">Methodology</h2>
+        <h2 class="section-heading">Project</h2>
         <hr>
       </div>
       <div class="container">
       	<div class="wrapper">
 	        <div class="box">
-	            <div class="text"><h5>Protocol Design</h5>
+	            <div class="text"><h5>NIST</h5>
 	            <hr style="border-color: white">
 		        <p>
 		    		We are going to find what researchers were doing on improving the performance of peer-to-peer network and figure our what is preventing them from making it more efficient. After having done literature review about peer-to-peer network and Intel SGX, we can think about how to make use of Intel SGX to mitigate the problem unsolved.
@@ -111,7 +111,7 @@
 	        </div>
 	        <div class="middle"></div>
 	        <div class="box">
-	            <div class="text"><h5>System Implementation</h5>
+	            <div class="text"><h5>Software Implementation</h5>
             	<hr style="border-color: white">
 		        <p>
 		    		We will first do some research on existing blockchain systems such as GEEC and extract the peer-to-peer network layer from them. Modifying the network layer and then integrate it with the original system.
@@ -120,7 +120,7 @@
 	        </div>
 	        <div class="middle"></div>
 	        <div class="box">
-	            <div class="text"><h5>System Evaluation</h5>
+	            <div class="text"><h5>Hardware Implementation</h5>
             	<hr style="border-color: white">
 		        <p>
 		    		After having the system working, we are going to evaluate our system compared to other existing blockchain systems on running the same applications like database, cryptocurrency, etc..
